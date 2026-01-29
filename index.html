@@ -86,7 +86,7 @@
   <body>
     <div class="container">
       <div class="title">
-        <h1>SLICE: Safe-referenced Latent-space Intervention for Concept Erasing in Diffusion Models</h1>
+        <h1>SLICE: Safe-referenced Latent-space Intervention for Concept Erasure with Preservation of Non-target Regions</h1>
         <p style="font-size: 1rem; color: #555; margin-top: 10px;"></p>
       </div>
       <div class="abstract-section">
@@ -94,7 +94,7 @@
       </div>
       <div class="abstraction-section">
         <h2>Abstract</h2>
-        <p>The inadvertent generation of copyrighted and harmful content by diffusion models has emerged as a significant challenge in responsible AI. To address this, we propose SLICE, a post-hoc intervention framework that achieves precise concept erasing by integrating a lightweight embedding layer while keeping the original UNet parameters frozen. SLICE establishes a clear decision criterion through timestep-aware projection and safe-reference anchoring, allowing for the selective suppression of target concepts based on their relative position in the latent space. By leveraging safe concepts as geometric anchors, our strategy suppresses harmful representations while effectively preserving the original prompt's semantic integrity and visual layout. Extensive experiments and human studies across diverse domains demonstrate that SLICE provides a robust and efficient solution for safety-enhanced image generation. Our approach confirms that precise, criterion-based intervention can successfully enhance model safety without compromising creative capabilities.</p>
+        <p>The inadvertent generation of copyrighted or harmful content remains a challenge for the responsible use of diffusion models. While existing erasing methods suppress target concepts, they often result in over-erasure, leading to unintended changes in non-target regions. To address this, we propose SLICE, a post-hoc intervention framework designed to neutralize harmful concepts while simultaneously preserving the non-target regions. SLICE integrates a concept embedding layer within a frozen UNet and establishes an intervention criterion by projecting latent representations into a space anchored around safe-reference concepts. By utilizing these geometric anchors, our strategy selectively suppresses target concept only when necessary, ensuring the preservation of non-target regions. Extensive experiments demonstrate that SLICE effectively provides safety while maintaining the semantic fidelity and structural consistency of the generated images.</p>
       </div>
       <div class="abstraction-section">
         <h2>Model Overview</h2>
