@@ -1,1 +1,0 @@
-# sosohi-ai.github.io
