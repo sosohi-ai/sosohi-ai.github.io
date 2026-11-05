@@ -1,0 +1,50 @@
+{
+  "items": [
+    {
+      "id": "star-emnlp-2026",
+      "date": "2026-10",
+      "dateLabel": "October 2026",
+      "dateShort": "2026",
+      "title": "STAR appears in Findings of EMNLP 2026",
+      "previewTitle": "Our work on inference-time backdoors in LLM reasoning appears in Findings of EMNLP 2026.",
+      "body": [
+        "Our paper, STAR: Detecting Inference-Time Backdoors in LLM Reasoning via Prior-Posterior Amplification, appears in Findings of the Association for Computational Linguistics: EMNLP 2026.",
+        "The work studies inference-time backdoors in language-model reasoning and proposes a lightweight detector based on prior-posterior amplification."
+      ],
+      "resources": [
+        { "label": "ACL Anthology", "url": "https://aclanthology.org/2026.findings-emnlp.2010/", "external": true },
+        { "label": "PDF", "url": "https://aclanthology.org/2026.findings-emnlp.2010.pdf", "external": true },
+        { "label": "Publication Entry", "url": "publications.html#star-2026" }
+      ]
+    },
+    {
+      "id": "roco-icassp-2026",
+      "date": "2026-06-08",
+      "dateLabel": "June 8, 2026",
+      "dateShort": "Jun 2026",
+      "title": "Soongsil University features RoCo, our proactive defense against voice cloning",
+      "previewTitle": "Soongsil University featured our proactive voice-cloning defense, RoCo, accepted to ICASSP 2026.",
+      "body": [
+        "Soongsil University's AI Safety Center published a press release on RoCo, a proactive protection method designed to make unauthorized voice cloning more difficult. The paper was presented at the 2026 IEEE International Conference on Acoustics, Speech and Signal Processing."
+      ],
+      "resources": [
+        { "label": "Official Press Release", "url": "https://aisc.ssu.ac.kr/bbs/board.php?mode=VIEW&num=46&tbl=bbs61", "external": true },
+        { "label": "Paper", "url": "https://doi.org/10.1109/ICASSP55912.2026.11462176", "external": true },
+        { "label": "Project Page", "url": "https://smerge0802.github.io/RoCo/", "external": true },
+        { "label": "Publication Entry", "url": "publications.html#roco-2026" }
+      ]
+    },
+    {
+      "id": "appointment-2025",
+      "date": "2025-09",
+      "dateLabel": "September 2025",
+      "dateShort": "Sep 2025",
+      "title": "Joined the AI Safety Center at Soongsil University",
+      "previewTitle": "Joined the AI Safety Center at Soongsil University as a Research Professor.",
+      "body": [
+        "I joined the AI Safety Center at Soongsil University as a Research Professor. My work focuses on AI security and safety, robust computer vision, adversarial machine learning, and generative-AI defense."
+      ],
+      "resources": []
+    }
+  ]
+}

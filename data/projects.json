@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "id": "privacy-inference-project",
+      "period": "2026-Present",
+      "category": "Privacy & Foundation Models",
+      "role": "Participating Researcher",
+      "funder": "KISA / PIPC",
+      "grant": "RS-2026-25526342",
+      "title": "Preventing Sensitive Information Inference and Risk Assessment in Foundation Model Operations",
+      "previewTitle": "Sensitive Information Inference Prevention and Risk Assessment",
+      "summary": "Conducts research on preventing sensitive-information inference and evaluating privacy risks that arise during foundation-model operation.",
+      "previewSummary": "Preventing sensitive-information inference and evaluating privacy risks during foundation-model operation.",
+      "featured": true,
+      "featuredOrder": 1
+    },
+    {
+      "id": "edge-ai-project",
+      "period": "Mar. 2022-Dec. 2025",
+      "category": "Edge AI Security",
+      "role": "Operational Project Lead",
+      "funder": "IITP / MSIT",
+      "grant": "2021-0-00511",
+      "title": "Robust AI and Distributed Attack Detection for Edge AI Security",
+      "summary": "Led project planning and administration, milestone and deliverable management, and research execution on robust AI and adversarial attack detection and defense.",
+      "previewSummary": "Led project operations and research execution for robust AI and distributed attack-detection technologies.",
+      "featured": true,
+      "featuredOrder": 2
+    },
+    {
+      "id": "generative-ai-project",
+      "period": "Apr. 2024-Dec. 2025",
+      "category": "Generative AI Security",
+      "role": "Participating Researcher",
+      "funder": "IITP / MSIT",
+      "grant": "RS-2024-00398353",
+      "title": "Countermeasure Technologies for Generative AI Security Threats",
+      "summary": "Conducted research on security threats to generative AI systems and the development of defensive countermeasures.",
+      "previewSummary": "Research on security threats to generative AI systems and the development of defensive countermeasures.",
+      "featured": true,
+      "featuredOrder": 3
+    },
+    {
+      "id": "self-sovereign-identity-project",
+      "period": "Mar. 2022-Dec. 2023",
+      "category": "Identity Security",
+      "role": "Participating Researcher",
+      "funder": "IITP / MSIT",
+      "grant": "2021-0-00565",
+      "title": "User Identity Certification and Management for Self-Sovereign Identity Applications",
+      "summary": "Conducted research on identity authentication and management technologies for self-sovereign identity.",
+      "featured": false
+    },
+    {
+      "id": "defense-rd-project",
+      "period": "2021",
+      "category": "Defense R&D",
+      "role": "Participating Researcher",
+      "funder": "KRIT / DAPA",
+      "grant": "KRIT-CT-21-037",
+      "title": "Defense R&D Project",
+      "summary": "Conducted research as a participating researcher in a government-funded defense R&D project.",
+      "featured": false
+    },
+    {
+      "id": "adversarial-vulnerability-project",
+      "period": "Mar.-Jun. 2020",
+      "category": "Adversarial Machine Learning",
+      "role": "Participating Researcher",
+      "funder": "NRF / MSIT",
+      "grant": "2020R1A2C1014813",
+      "title": "Advanced Analysis and Defense of Adversarial-Example Vulnerabilities in AI",
+      "summary": "Conducted research on adversarial-example vulnerability analysis and defense technologies.",
+      "featured": false
+    },
+    {
+      "id": "fintech-fraud-project",
+      "period": "2017-2019",
+      "category": "Fintech Security",
+      "role": "Participating Researcher",
+      "funder": "Creative Seed Stage 2",
+      "grant": "",
+      "title": "Remote Identity Verification and Anomalous-Transaction Filtering for Fintech Fraud Prevention",
+      "summary": "Conducted research on machine-learning-based identity verification, fraud detection, and financial-risk prediction.",
+      "featured": false
+    }
+  ]
+}

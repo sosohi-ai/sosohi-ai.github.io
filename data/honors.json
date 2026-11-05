@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "year": "2026",
+      "title": "ETRI President's Award",
+      "description": "The paper on implicit personal-information inference threats in large language models was selected as an outstanding paper at the Korea Institute of Information Security & Cryptology Chungcheong Branch Conference."
+    },
+    {
+      "year": "2026",
+      "title": "NSR Director's Award",
+      "description": "The paper on CVE-based AI/ML framework attack paths and lightweight LLM-assisted bug hunting was selected as an outstanding paper at the Korea Institute of Information Security & Cryptology Summer Conference."
+    },
+    {
+      "year": "2025",
+      "title": "ETRI President's Award",
+      "description": "The paper on explainable adversarial-image detection using knowledge graphs was selected as an outstanding paper at the Korea Institute of Information Security & Cryptology Summer Conference."
+    },
+    {
+      "year": "2019",
+      "title": "ETRI President's Award",
+      "description": "The paper on device-fingerprinting-based user identification was selected as an outstanding paper at the Korea Institute of Information Security & Cryptology Winter Conference."
+    },
+    {
+      "year": "2017",
+      "title": "Outstanding Paper Award, Korea Institute of Information Security & Cryptology",
+      "description": "Awarded at the Summer Conference for research on loan-review performance with imbalanced credit data using SMOTE."
+    }
+  ]
+}

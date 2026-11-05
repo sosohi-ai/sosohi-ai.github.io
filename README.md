@@ -13,6 +13,12 @@ My research focuses on the security, safety, and trustworthiness of artificial i
 
 **https://sosohi-ai.github.io/**
 
+## Updating Content
+
+Routine content is managed through the JSON files in [`data/`](data/README.md). News, projects, publications, and awards can be updated in the GitHub web editor without changing the page HTML.
+
+Open the [data folder on GitHub](https://github.com/sosohi-ai/sosohi-ai.github.io/tree/main/data), edit the relevant file, and commit the change to `main`. The website will load the updated content automatically.
+
 ## Contact
 
 - Email: [sosohi@soongsil.ac.kr](mailto:sosohi@soongsil.ac.kr)
