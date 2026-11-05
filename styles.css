@@ -144,6 +144,18 @@ a:hover, a:focus-visible { color: var(--accent-dark); text-decoration: underline
 .news-link { color: var(--text); }
 .news-link:hover, .news-link:focus-visible { color: var(--accent-dark); }
 
+.honor-list { border-top: 1px solid var(--border); }
+.honor-item {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.honor-item time { color: var(--muted); font-family: var(--serif); font-size: 0.9rem; }
+.honor-item h3 { margin: -0.1rem 0 0.25rem; font-family: var(--serif); font-size: 1.03rem; font-weight: 400; }
+.honor-item p { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
+
 .research-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -442,7 +454,8 @@ a:hover, a:focus-visible { color: var(--accent-dark); text-decoration: underline
   .profile-card { display: grid; grid-template-columns: 112px 1fr; gap: 1rem; align-items: end; }
   .profile-details { margin: 0; }
   .about h1 { font-size: 2.75rem; }
-  .news-item { grid-template-columns: 82px 1fr; }
+  .news-item,
+  .honor-item { grid-template-columns: 82px 1fr; }
   .publication-item,
   .publication-item.compact { grid-template-columns: 76px 1fr; gap: 1rem; }
   .publication-badge { padding: 0.4rem; }
