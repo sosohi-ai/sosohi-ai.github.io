@@ -412,6 +412,11 @@
               "external": true
             },
             {
+              "label": "Audio Demo",
+              "url": "https://sosohi-ai.github.io/deepvoice-demo/",
+              "external": true
+            },
+            {
               "label": "News",
               "url": "news.html#roco-icassp-2026",
               "external": false

@@ -31,6 +31,7 @@
         { "label": "Official Press Release", "url": "https://aisc.ssu.ac.kr/bbs/board.php?mode=VIEW&num=46&tbl=bbs61", "external": true },
         { "label": "Paper", "url": "https://doi.org/10.1109/ICASSP55912.2026.11462176", "external": true },
         { "label": "Project Page", "url": "https://smerge0802.github.io/RoCo/", "external": true },
+        { "label": "Audio Demo", "url": "https://sosohi-ai.github.io/deepvoice-demo/", "external": true },
         { "label": "Publication Entry", "url": "publications.html#roco-2026" }
       ]
     },
