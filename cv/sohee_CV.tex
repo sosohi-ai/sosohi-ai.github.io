@@ -21,6 +21,9 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{sohee-awesome-cv}
 
+% QR code placement in the first-page header
+\usepackage{tikz}
+
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -84,6 +87,14 @@
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
+
+% Personal website QR code (also clickable in the PDF)
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=north east,inner sep=0pt] at
+    ([xshift=-1.45cm,yshift=-0.75cm]current page.north east)
+    {\href{https://sosohi-ai.github.io/}{%
+      \includegraphics[width=1.75cm]{sohee_CV/personal-website-qr.png}}};
+\end{tikzpicture}
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
